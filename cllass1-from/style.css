@@ -1,0 +1,108 @@
+/*
+Basic Information:
+--------------------
+
+Project Name   	:	NGH school Template
+Author       	: 	NGH school
+Our Site 		: 	https://youthenlight.com
+Description 	: 	This is html5 School template
+Developed By 	: 	Mahbubul Haq
+Phone           :   01515672069
+
+
+-----------------------------------------------------------------------------------*/
+/*================== 1. Start Template Common CSS ===============*/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.secition_padding{
+	position: relative;
+}
+.section_bg {
+	background-image: url(img/bg1.jpeg);
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 620px;
+	width: 60%;
+	background-size: cover;
+	z-index: -2;
+	padding: 0 43px;
+}
+.section_bg::after{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height:620px;
+	width: 100%;
+	content: "";
+	background: #31dace;
+	opacity: 0.8;
+	z-index: -1;
+	
+}
+.contact_from {
+	padding-bottom: 100px;
+	padding-top: 80px;
+}
+.contact-from input:focus{
+	border: 1px solid#333;
+}
+.contact_from h2{
+	color: #fff;
+}
+.contact_from input, .contact-form textarea {
+	width: 100%;
+	padding: 13px;
+	border:1px solid#fff;
+	margin-bottom: 10px;
+	color: #333;
+}
+.input:focus,textarea:focus,button:focus{
+	outline: none;
+}
+#massage {
+	width: 100%;
+	height: 200px;
+}
+.submit_btn contact_from input{
+	width: auto;
+}
+.submit_btn {
+	width: 170px;
+	padding: 12px 4px;
+	font-weight: 700;
+	color: #31d6ee;
+	padding-right: 29px;
+}
+.appointment_text {
+	padding-left: 100px;
+	padding-top: 150px;
+	line-height: 43px;
+}
+.appointment_text ul li{
+	list-style: none;
+}
+.appointment_text a {
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+	background-color: aqua;
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+.fas.fa-shield-alt {
+	color: aqua;
+	padding-right: 9px;
+	margin-left: -26px;
+}
+/*========================   Nav manu ==================*/
+
+
+
+
+
+
+
